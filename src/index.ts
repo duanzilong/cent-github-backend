@@ -100,6 +100,10 @@ app.use(
 		// 允许所有常见的请求头部
 		// **关键修改点：确保 WebDAV 头部 'Depth' (以及 'Destination', 'If' 等) 被明确允许**
 		allowHeaders: [
+
+			// 新加
+			"X-GitHub-Api-Version",
+			
 			// 标准头部
 			"Content-Type",
 			"Authorization",
