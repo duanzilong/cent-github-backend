@@ -1,5 +1,5 @@
 #:schema node_modules/wrangler/config-schema.json
-name = "oncent-backend"
+name = "centback"
 main = "src/index.ts"
 compatibility_date = "2024-11-12"
 compatibility_flags = ["nodejs_compat"]
@@ -24,8 +24,8 @@ enabled = true
 # - https://developers.cloudflare.com/workers/configuration/secrets/
 [vars]
 # MY_VARIABLE = "production_value"
-GITHUB_CLIENT_ID="Iv23lijSdEcci1J90rzM"
-GITEE_CLIENT_ID="f34c01e101c63abfd3393336ef3751b2613614f8387c7f2308a139f775bb7617"
+GITHUB_CLIENT_ID="Iv23liSoXCEsL0NkwY1e"
+GITEE_CLIENT_ID="1cff340cc7583b0b65e56fc9f1b340b7024d87e1bd1e40779446c8c3a98d1ea6"
 
 # Bind the Workers AI model catalog. Run machine learning models, powered by serverless GPUs, on Cloudflare’s global network
 # Docs: https://developers.cloudflare.com/workers/wrangler/configuration/#workers-ai
