@@ -211,8 +211,6 @@ app.get("/api/github-oauth/authorized", async (c) => {
 		throw new HTTPException(400, { message: INVALID_REDIRECT_MSG });
 	}
 	const returnUrl = new URL(appReturnUrl);
-
-console.log("[debug] gh-secret-tail:", (c.env.GITHUB_CLIENT_SECRET || "").slice(-8), "| gitee-tail:", (c.env.GITEE_CLIENT_SECRET || "").slice(-8), "| keys:", Object.keys(c.env).sort().join(","));
 	
 	// 步骤 3: 使用 code 交换 Access Token
 	console.log("Exchanging code for access token...");
