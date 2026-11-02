@@ -8,8 +8,10 @@ export default [
 	"https://c.920926.xyz",
 	"http://c.920926.xyz",
 	"c.920926.xyz",
+	"https://b.920926.xyz",
+	"http://b.920926.xyz",
+	"b.920926.xyz",
 	"920926.xyz",
-	"https://0.920926.xyz",
 	"dailycent://",
 	"dailycent-auth://",
 ];
